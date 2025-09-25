@@ -19,7 +19,6 @@ Titulo de ejemplo de **Markdown**.
 ### Ejemplo de gráfico
 
 ```mermaid
-%%
-    A[Producto A] -->|80| B[Ventas]
-    C[Producto B] -->|60| B
-    D[Producto C] -->|40| B
+A[Producto A] -->|80| B[Ventas]
+C[Producto B] -->|60| B
+D[Producto C] -->|40| B
