@@ -19,11 +19,9 @@ Titulo de ejemplo de **Markdown**.
 ### Ejemplo de gráfico
 
 ```mermaid
-
-  <rect x="10" y="10" width="30" height="80" fill="steelblue" />
-  <rect x="50" y="30" width="30" height="60" fill="tomato" />
-  <rect x="90" y="50" width="30" height="40" fill="orange" />
-  <text x="10" y="95" font-size="10">A</text>
-  <text x="50" y="95" font-size="10">B</text>
-  <text x="90" y="95" font-size="10">C</text>
-</svg>
+%% Mermaid no tiene soporte nativo completo para bar charts estándar.
+%% Pero puedes simular algunos tipos de visualización.
+graph TD
+    A[Producto A] -->|80| B[Ventas]
+    C[Producto B] -->|60| B
+    D[Producto C] -->|40| B
