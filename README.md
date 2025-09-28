@@ -19,6 +19,11 @@ Titulo de ejemplo de **Markdown**.
 ### Ejemplo de gráfico
 
 ```mermaid
-A[Producto A] -->|80| B[Ventas]
-C[Producto B] -->|60| B
-D[Producto C] -->|40| B
+flowchart TD
+    A[Ejemplo1] --> B[Ejemplo2]
+    B --> C[Ejemplo3]
+    C --> D{¿Condición?}
+    D -- Sí --> E[Ejemplo4]
+    D -- No --> F[Ejemplo5]
+    E --> G[Ejemplo6]
+    F --> G
